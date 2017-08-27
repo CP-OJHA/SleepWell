@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1" android:versionName="1.0"
+    package="com.example.lenovo.sleepwell">
+  <uses-sdk android:minSdkVersion="10"/>
+  <application   android:label="SleepWell">
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".AlarmReceiverActivity">
+
+    </activity>
+    <activity android:name=".AlarmRecordActivity">
+
+    </activity>
+
+    <activity android:name=".AlarmSelectActivity">
+
+    </activity>
+
+  </application>
+
+
+
+
+
+<uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+<uses-permission android:name="android.permission.VIBRATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+</manifest>
