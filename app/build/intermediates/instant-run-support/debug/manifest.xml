@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.sleepwell"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application android:label="SleepTracker" >
+        <activity android:name="com.example.lenovo.sleepwell.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.lenovo.sleepwell.AlarmReceiverActivity" >
+        </activity>
+        <activity android:name="com.example.lenovo.sleepwell.AlarmRecordActivity" >
+        </activity>
+        <activity android:name="com.example.lenovo.sleepwell.AlarmSelectActivity" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.example.lenovo.sleepwell.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+#Sun Aug 27 19:00:48 IST 2017
+base.0=E\:\\Android\\Project\\SleepWell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fb0519b9d57deae29424dac7c0b188907980a062
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\Android\\Project\\SleepWell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_52fd7ee10adc9869d604bf9c65981cd65b8a0cc5\\classes.dex
+base.1=E\:\\Android\\Project\\SleepWell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_52fd7ee10adc9869d604bf9c65981cd65b8a0cc5
+file.0=E\:\\Android\\Project\\SleepWell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fb0519b9d57deae29424dac7c0b188907980a062\\classes.dex
